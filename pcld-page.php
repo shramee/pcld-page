@@ -8,6 +8,8 @@ Author URI: http://shramee.com
 Author Email: shramee.srivastav@gmail.com
 */
 
+define( 'PCLDPAGE', plugin_dir_url( __FILE__ ) );
+
 if ( isset( $_REQUEST['all-scripts'] ) )
 add_action(
 	'wp_enqueue_scripts',
