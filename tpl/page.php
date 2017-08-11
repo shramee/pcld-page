@@ -28,6 +28,7 @@
 					"<div class='ppb-tpl' data-bottom-top='-webkit-transform: translateY(70px);transform: translateY(70px);' data-center='-webkit-transform: translateY(0px);transform: translateY(0px);'>" .
 					"<img src='$tpl[img]' alt='$id'>" .
 					'<i class="fa fa-search"></i>' .
+					'<i class="fa fa-close"></i>' .
 					"<h3>$id</h3>" .
 					"</div>";
 			}

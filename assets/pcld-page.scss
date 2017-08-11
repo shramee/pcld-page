@@ -114,9 +114,10 @@ nav.secondary-navigation {
 	cursor: pointer;
 	transition: all 0.5s, transform 0s;
 
-	img, i.fa-search {
+	img, i.fa-search, i.fa-close {
 		transition: all 0.5s;
 	}
+
 	img {
 		width: 100%;
 		border-radius: 0;
@@ -131,7 +132,9 @@ nav.secondary-navigation {
 		z-index: 1;
 		text-align: center;
 	}
-	i.fa-search {
+
+	i.fa-search,
+	i.fa-close {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -145,6 +148,22 @@ nav.secondary-navigation {
 		color: #fff;
 		margin: -63px -35px;
 		opacity: 0.5;
+	}
+
+	i.fa-close {
+		top: 0;
+		left: auto;
+		right: 0;
+		display: none;
+		margin: 16px;
+		line-height: 34px;
+		height: 35px;
+		width: 35px;
+		font-size: 20px;
+		opacity: 0.3;
+		&:hover {
+			opacity: 0.5;
+		}
 	}
 
 	&:hover {
@@ -169,6 +188,10 @@ nav.secondary-navigation {
 			margin: auto;
 			i.fa-search {
 				opacity: 0;
+			}
+
+			i.fa-close {
+				display: block;
 			}
 			img {
 				-webkit-transform: scale(1);
