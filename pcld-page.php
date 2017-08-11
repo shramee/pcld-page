@@ -9,6 +9,7 @@ Author Email: shramee.srivastav@gmail.com
 */
 
 define( 'PCLDPAGE', plugin_dir_url( __FILE__ ) );
+define( 'PCLDPAGE_VER', 1 );
 
 if ( isset( $_REQUEST['all-scripts'] ) )
 add_action(
