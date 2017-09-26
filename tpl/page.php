@@ -12,20 +12,25 @@
 		<i id="cloud4" class="fa fa-cloud"></i>
 		<i id="cloud5" class="fa fa-cloud"></i>
 
-		<h1 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 35vh 0 0;">Introducing Pootle Cloud</h1>
+		<h1 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 25vh 0 0;">Introducing Pootle Cloud</h1>
+		<h3 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 7vh 0 0;">Create and reuse template blocks on any website</h3>
 		<img data-bottom="bottom: -0.2vh;" data-top-bottom="bottom: -16vh;left: 0vw;"
 				 src="<?php echo PCLDPAGE ?>/assets/wilson.png">
+		<img class="logo" src="https://www.pootlepress.com/wp-content/uploads/2017/06/pootlepress-logo-website.png" alt="PootlePress">
 	</div>
 </div>
 
 <div id="slide2" class="slide">
 	<div class="col-full" id="templates">
 		<?php
-		$tpls = Pootle_PB_Pootle_Cloud::get_templates();
+		$tpls = Pootle_PB_Pootle_Cloud::pp_templates();
 		foreach ( $tpls as $id => $tpl ) {
 			if ( ! empty( $tpl['img'] ) ) {
+				$delta = rand( 50, 160 );
 				echo
-					"<div class='ppb-tpl' data-bottom-top='-webkit-transform: translateY(70px);transform: translateY(70px);' data-center='-webkit-transform: translateY(0px);transform: translateY(0px);'>" .
+					"<div class='ppb-tpl' " .
+					"data-bottom-top='-webkit-transform: translateY({$delta}px);transform: translateY({$delta}px);' " .
+					"data-center-top='-webkit-transform: translateY(0px);transform: translateY(0px);'>" .
 					"<img src='$tpl[img]' alt='$id'>" .
 					'<i class="fa fa-search"></i>' .
 					'<i class="fa fa-close"></i>' .
