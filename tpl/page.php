@@ -1,5 +1,6 @@
 <?php
 ?>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
 <link rel="stylesheet" href="<?php echo PCLDPAGE ?>/assets/pcld-page.css?v=<?php echo PCLDPAGE_VER ?>">
 
@@ -12,7 +13,7 @@
 		<i id="cloud4" class="fa fa-cloud"></i>
 		<i id="cloud5" class="fa fa-cloud"></i>
 
-		<h1 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 25vh 0 0;">Introducing Pootle Cloud</h1>
+		<h1 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 25vh 0 0;">Introducing Pootle<span style="font-family: 'Lobster', cursive">Cloud</span></h1>
 		<h3 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 7vh 0 0;">Create and reuse template blocks on any website</h3>
 		<img data-bottom="bottom: -0.2vh;" data-top-bottom="bottom: -16vh;left: 0vw;"
 				 src="<?php echo PCLDPAGE ?>/assets/wilson.png">
