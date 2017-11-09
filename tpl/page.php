@@ -14,7 +14,9 @@
 		<i id="cloud5" class="fa fa-cloud"></i>
 
 		<h1 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 25vh 0 0;">Introducing Pootle<span style="font-family: 'Lobster', cursive">Cloud</span></h1>
-		<h3 data-center="margin: 5vh 0 0;" data-top-bottom="margin: 7vh 0 0;">Create and reuse template blocks on any website</h3>
+		<h3 data-center="margin: 3vh 0 0;" data-top-bottom="margin: 7vh 0 0;">Create and reuse template blocks on any website</h3>
+
+		<h5 data-center="margin: 3vh 0 0;" data-top-bottom="margin: 5vh 0 0;">&mdash; for Pootle Pagebuilder <span style="font-family: 'Lobster', cursive">Pro</span> —</h5>
 		<img data-bottom="bottom: -0.2vh;" data-top-bottom="bottom: -16vh;left: 0vw;"
 				 src="<?php echo PCLDPAGE ?>/assets/wilson.png">
 		<img class="logo" src="https://www.pootlepress.com/wp-content/uploads/2017/06/pootlepress-logo-website.png" alt="PootlePress">
